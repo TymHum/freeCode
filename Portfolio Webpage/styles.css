@@ -1,0 +1,134 @@
+:root{
+    --main-light: #F8F4E1;
+    --main-dark: #AF8F6F;
+    --main-darker: #74512D;
+    --main-darkest: #543310;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: var(--main-light);
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--main-darkest);
+    width: 100%;
+    position: fixed;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--main-light);
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: var(--main-dark);
+}
+
+h1{
+    font-size: 65px;
+    color: var(--main-light);
+}
+
+h2{
+    font-size: 30px;
+    color: var(--main-darkest);
+}
+
+h3{
+    font-size: 25px;
+    color: var(--main-darkest);
+}
+
+h4{
+    font-size: 15px;
+    color: var(--main-darkest);
+}
+
+footer{
+    background-color: var(--main-dark);
+    height: 15vh;
+    border-top: 2px solid var(--main-light);
+}
+
+
+/*
+    ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID ID
+*/
+
+#welcome-section{
+    text-align: center;
+    padding-top: 200px;
+    height: 80vh;
+    background-color: var(--main-dark);
+}
+
+#projects{
+    background-color: var(--main-darker);
+    height: 100vh;
+    text-align: center;
+}
+
+
+#credentials{
+    background-color: var(--main-dark);
+    height: 80vh;
+    text-align: center;
+}
+
+#credentials h1{
+    padding-top: 100px;
+}
+
+#credentials ul{
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0 150px;
+    margin-top: 5%;
+}
+
+#credentials a{
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--main-light);
+    display: block;
+    padding: 10px;
+}
+
+#credentials a:hover{
+    transform:translateY(-10px) scale(1.2);
+    
+}
+
+
+
+
+/*
+    class class class class class class class class class class class class class class class class class class class 
+*/
+
+.project-tile{
+    padding-top: 40px; 
+    border-bottom: 2px solid #F8F4E1; 
+    width: 80%;
+    margin: auto;
+}
+
+
+
