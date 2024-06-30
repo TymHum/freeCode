@@ -76,6 +76,7 @@ footer h3{
 img{
     height: 200px;
     margin: 50px;
+    display: block;
 }
 
 /*
@@ -148,13 +149,29 @@ img{
     margin-right: 10px;
 }
 
+.projects div{
+    display: flex;
+}
+
+.project-segment{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px
+}
+
 .project-segment a{
     border-radius: 20px;
     padding: 10px;
+    width: 100px;
 }
 
-.project-segment a:hover{
+.project-segment:hover{
     background-color: var(--main-dark);
+}
+
+.flex-div{
+    display: flex;
+    justify-content: center;
 }
 
 
