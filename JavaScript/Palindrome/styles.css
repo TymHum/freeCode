@@ -1,0 +1,40 @@
+body{
+    margin: auto;
+    text-align: center;
+    background-color: #3ABEF9;
+}
+
+h1{
+    margin-top: 80px;
+    color: #050C9C;
+}
+
+.input-container{
+    background-color: #A7E6FF;
+    color: #050C9C;
+    text-align: center;
+    font-weight: 900;
+    margin: auto;
+    width: 420px;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.explaination{
+    background-color: #A7E6FF;
+    color: #050C9C;
+    font-weight: 900;
+    margin: auto;
+    width: 420px;
+    height: 120px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+
+#result{
+    font-size: 40px;
+    font-weight: 900;
+}

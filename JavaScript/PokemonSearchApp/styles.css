@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #987D9A;
+    text-align: center;
+}
+
+main{
+    background-color: #EECEB9;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    margin-bottom: 50px;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+table{
+    margin: auto;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button{
+    height: 40px;
+    width: 60px;
+    border-radius: 20px;
+}
+
+td, th{
+    background-color: #BB9AB1;
+    width: 175px;
+    height: 50px;
+    font-size: 20px;
+}
+
+th{
+    font-weight: 900;
+}
+
+.input{
+    padding: 20px;
+}
+
+.preview{
+    height: 30%;
+}
+
+.credentials{
+    margin-left: 20px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 900;
+    gap: 20px;
+}
+
+.short_stats{   
+    margin-left: 20px;
+    display: flex;
+    font-size: 15px;
+    font-weight: 400;
+    gap: 20px;
+}
+
+.electric {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 156);
+}
+
+.fire {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 156, 156);
+}
+
+.water {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(156, 156, 255);
+}
+
+.grass {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(156, 255, 156);
+}
+
+.ice {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(156, 255, 255);
+}
+
+.fighting {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 156, 156);
+}
+
+.poison {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(200, 156, 255);
+}
+
+.ground {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 218, 156);
+}
+
+.flying {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(200, 200, 255);
+}
+
+.psychic {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 156, 218);
+}
+
+.bug {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(200, 255, 156);
+}
+
+.rock {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(218, 200, 156);
+}
+
+.ghost {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(156, 156, 255);
+}
+
+.dragon {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(156, 200, 255);
+}
+
+.dark {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(156, 156, 156);
+}
+
+.steel {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(200, 200, 200);
+}
+
+.fairy {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 200, 255);
+}
+
+.normal {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(200, 200, 200);
+}
+
+
+#types{
+    padding: 20px;
+    display: flex;
+    gap: 5px;
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #5F7464;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+input{
+    margin-top: 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.telephone{
+    width: 200px;
+    height: 375px;
+    background-color: black;
+    margin: auto;
+    padding: 15px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.screen{
+    height: 80%;
+    background-color: lightgray;
+}
+    
+.camera{
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+button{
+    margin: 15px 5px;
+    width: 80px;
+    font-size: 25px;
+}
+
+.button-container{
+    
+    justify-content: center;
+}
