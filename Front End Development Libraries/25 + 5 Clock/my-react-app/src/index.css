@@ -1,0 +1,104 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.length-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.length-control > div {
+  font-size: 1.2em;
+  margin: 0 10px;
+}
+
+.length-control button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.length-control button:hover {
+  background: #0056b3;
+}
+
+.timer-wrapper {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.timer-wrapper #timer-label {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.timer-wrapper #time-left {
+  color: #333;
+}
+
+.timer-control button {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: background 0.3s;
+}
+
+.timer-control button:hover {
+  background: #218838;
+}
+
+.timer-control button#reset {
+  background: #dc3545;
+}
+
+.timer-control button#reset:hover {
+  background: #c82333;
+}
+
+#beep {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+  
+  .length-control {
+    flex-direction: column;
+  }
+  
+  .length-control > div {
+    margin: 5px 0;
+  }
+}
